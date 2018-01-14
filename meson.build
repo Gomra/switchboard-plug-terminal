@@ -9,7 +9,7 @@ plug_icon = 'utilities-terminal'
 config = configuration_data()
 config.set('plug_name', plug_name)
 config.set('code_name', meson.project_name())
-config.set('category', plug_category)
+config.set('plug_category', plug_category)
 config.set('plug_title', plug_title)
 config.set('plug_description', plug_description)
 config.set('plug_icon', plug_icon)

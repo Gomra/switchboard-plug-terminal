@@ -1,38 +1,26 @@
-# Switchboard About Plug
-[![l10n](https://l10n.elementary.io/widgets/switchboard/switchboard-plug-about/svg-badge.svg)](https://l10n.elementary.io/projects/switchboard/switchboard-plug-about)
+# Switchboard Terminal Plug
+
+An unofficial plug to customize elementary Terminal.
 
 ## Building and Installation
 
 You'll need the following dependencies:
 
-* cmake
+* meson
 * libswitchboard-2.0-dev
-* libgranite-dev
 * libgtk-3-dev
 * valac
 
 It's recommended to create a clean build environment
 
-    mkdir build
-    cd build/
-    
-Run `cmake` to configure the build environment and then `make` to build
+    meson build --prefix /usr
+    cd build
 
-    cmake -DCMAKE_INSTALL_PREFIX=/usr ..
-    make
-    
-To install, use `make install`, then execute with `switchboard`
+Run `ninja` to build
 
-    sudo make install
-    switchboard
+    ninja
 
-## OEM Configuration
+To install, use `ninja install`, then execute with `switchboard`
 
-The Switchboard About plug can load OEM information supplied by an `oem.conf` file placed in `/etc` with the following format:
-
-    [OEM]
-    Manufacturer=System76 Inc.
-    Product=Meerkat
-    Version=meer1
-    Logo=/etc/oem/logo.png
-    URL=https://support.system76.com
+    sudo ninja install
+    switchboard --debug
