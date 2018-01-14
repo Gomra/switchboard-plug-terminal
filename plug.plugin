@@ -1,0 +1,11 @@
+[Plugin]
+Module=@plug_name@
+IAge=2
+Name=@plug_title@
+Description=@plug_description@
+Authors=Baptiste Gelez
+Copyright=Copyright © 2018 Baptiste Gelez
+Website=https://baptiste.gelez.xyz
+Icon=@plug_icon@
+X-Category=@plug_category@
+X-GNOME-Gettext-Domain=@gettext_package@

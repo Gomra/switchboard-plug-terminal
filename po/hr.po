@@ -1,0 +1,127 @@
+# Croatian translation for switchboard-plug-about
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the switchboard-plug-about package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-about\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-03 17:14-0700\n"
+"PO-Revision-Date: 2017-08-16 11:33+0000\n"
+"Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <https://weblate.elementary.io/projects/switchboard"
+"/switchboard-plug-about/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 2.15\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:10+0000\n"
+
+#: ../src/RestoreDialog.vala:29
+msgid "System Settings Will Be Restored to The Factory Defaults"
+msgstr "Postavke sustava će biti vraćene na izvorne postavke"
+
+#: ../src/RestoreDialog.vala:35
+msgid ""
+"All system settings and data will be reset to the default values. Personal "
+"data, such as music and pictures, will be uneffected."
+msgstr ""
+"Sve postavke i podaci će biti vraćeni na zadane vrijednosti. Osobni podaci, "
+"poput glazbe i slika, neće biti obuhvaćeni."
+
+#: ../src/RestoreDialog.vala:50
+msgid "Restore Settings"
+msgstr "Vrati postavke"
+
+#: ../src/RestoreDialog.vala:53
+msgid "Cancel"
+msgstr "Odustani"
+
+#: ../src/Plug.vala:40
+msgid "About"
+msgstr "Informacije sustava"
+
+#: ../src/Plug.vala:41
+msgid "View operating system and hardware information"
+msgstr "Pogledajte informacije operativnog sustava i hardvera"
+
+#: ../src/Plug.vala:70
+msgid "System Information"
+msgstr "Informacije sustava"
+
+#: ../src/Plug.vala:71 ../src/Plug.vala:338
+msgid "Restore Default Settings"
+msgstr "Vrati zadane postavke"
+
+#: ../src/Plug.vala:72
+msgid "Suggest Translation"
+msgstr "Predloži prijevod"
+
+#: ../src/Plug.vala:73
+msgid "Report Problems"
+msgstr "Prijavi probleme"
+
+#: ../src/Plug.vala:74
+msgid "Updates"
+msgstr "Nadopune"
+
+#: ../src/Plug.vala:168 ../src/Plug.vala:210 ../src/Plug.vala:221
+#: ../src/Plug.vala:241
+msgid "Unknown"
+msgstr "Nepoznato"
+
+#: ../src/Plug.vala:180
+msgid "Dual-Core"
+msgstr "Dual-Core"
+
+#: ../src/Plug.vala:182
+msgid "Quad-Core"
+msgstr "Quad-Core"
+
+#: ../src/Plug.vala:264
+msgid "Built on %s"
+msgstr "Temeljen na %s"
+
+#: ../src/Plug.vala:271
+msgid "GTK+ %s"
+msgstr "GTK+ %s"
+
+#: ../src/Plug.vala:274
+msgid "Website"
+msgstr "Web stranica"
+
+#: ../src/Plug.vala:282
+msgid "%s memory"
+msgstr "%s memorija"
+
+#: ../src/Plug.vala:288
+msgid "%s storage"
+msgstr "%s pohrana"
+
+#: ../src/Plug.vala:308
+msgid "Suggest Translations"
+msgstr "Predloži prijevode"
+
+#: ../src/Plug.vala:318
+msgid "Report a Problem"
+msgstr "Prijavi problem"
+
+#: ../src/Plug.vala:328
+msgid "Check for Updates"
+msgstr "Provjeri nadopune"
+
+#~ msgid "Hardware"
+#~ msgstr "Hardver"
+
+#~ msgid "Processor:"
+#~ msgstr "Procesor:"
+
+#~ msgid "Graphics:"
+#~ msgstr "Grafika:"
+
+#~ msgid "Personal data, such as music and pictures, will be uneffected."
+#~ msgstr "Osobni podaci kao što su glazba i slike neće biti obuhvaćeni."

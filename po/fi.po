@@ -1,0 +1,129 @@
+# Finnish translation for switchboard-plug-about
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the switchboard-plug-about package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-about\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-03 17:14-0700\n"
+"PO-Revision-Date: 2017-05-21 07:22+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard"
+"/switchboard-plug-about/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.14\n"
+"X-Launchpad-Export-Date: 2017-04-05 07:09+0000\n"
+
+#: ../src/RestoreDialog.vala:29
+msgid "System Settings Will Be Restored to The Factory Defaults"
+msgstr "Järjestelmän asetukset palautetaan oletusasetuksiin"
+
+#: ../src/RestoreDialog.vala:35
+msgid ""
+"All system settings and data will be reset to the default values. Personal "
+"data, such as music and pictures, will be uneffected."
+msgstr ""
+"Kaikki järjestelmän asetukset ja tiedot palautetaan oletusarvoihin. Tämä ei "
+"vaikuta henkilökohtaisiin tietoihisi, kuten musiikkiin ja kuviin."
+
+#: ../src/RestoreDialog.vala:50
+msgid "Restore Settings"
+msgstr "Palauta oletusasetukset"
+
+#: ../src/RestoreDialog.vala:53
+msgid "Cancel"
+msgstr "Peru"
+
+#: ../src/Plug.vala:40
+msgid "About"
+msgstr "Tietoja"
+
+#: ../src/Plug.vala:41
+msgid "View operating system and hardware information"
+msgstr "Katso käyttöjärjestelmän ja laitteiston tiedot"
+
+#: ../src/Plug.vala:70
+msgid "System Information"
+msgstr "Järjestelmän tiedot"
+
+#: ../src/Plug.vala:71 ../src/Plug.vala:338
+msgid "Restore Default Settings"
+msgstr "Palauta oletusasetukset"
+
+#: ../src/Plug.vala:72
+msgid "Suggest Translation"
+msgstr "Ehdota käännöstä"
+
+#: ../src/Plug.vala:73
+msgid "Report Problems"
+msgstr "Ilmoita ongelmasta"
+
+#: ../src/Plug.vala:74
+msgid "Updates"
+msgstr "Päivitykset"
+
+#: ../src/Plug.vala:168 ../src/Plug.vala:210 ../src/Plug.vala:221
+#: ../src/Plug.vala:241
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: ../src/Plug.vala:180
+msgid "Dual-Core"
+msgstr "Tuplaydin"
+
+#: ../src/Plug.vala:182
+msgid "Quad-Core"
+msgstr "Neliydin"
+
+#: ../src/Plug.vala:264
+msgid "Built on %s"
+msgstr "Pohjana %s"
+
+#: ../src/Plug.vala:271
+msgid "GTK+ %s"
+msgstr "GTK+ %s"
+
+#: ../src/Plug.vala:274
+msgid "Website"
+msgstr "Verkkosivusto"
+
+#: ../src/Plug.vala:282
+#, fuzzy
+msgid "%s memory"
+msgstr "Muisti:"
+
+#: ../src/Plug.vala:288
+#, fuzzy
+msgid "%s storage"
+msgstr "Tallennustila:"
+
+#: ../src/Plug.vala:308
+msgid "Suggest Translations"
+msgstr "Ehdota käännöksiä"
+
+#: ../src/Plug.vala:318
+msgid "Report a Problem"
+msgstr "Ilmoita ongelmasta"
+
+#: ../src/Plug.vala:328
+msgid "Check for Updates"
+msgstr "Tarkista päivitykset"
+
+#~ msgid "Hardware"
+#~ msgstr "Laitteisto"
+
+#~ msgid "Processor:"
+#~ msgstr "Suoritin:"
+
+#~ msgid "Graphics:"
+#~ msgstr "Grafiikka:"
+
+#~ msgid "Personal data, such as music and pictures, will be uneffected."
+#~ msgstr ""
+#~ "Tämä ei vaikuta henkilökohtaisiin tietoihin, kuten musiikkiin ja kuviin."
