@@ -27,6 +27,7 @@ library(
   meson.project_name(),
   files(
     'src/Plug.vala',
+    'src/Settings.vala',
     join_paths(meson.build_root(), '@0@'.format(config_vala))
   ),
   dependencies: [
