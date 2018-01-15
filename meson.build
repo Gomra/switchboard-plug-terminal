@@ -28,7 +28,7 @@ library(
   files(
     'src/Plug.vala',
     'src/Settings.vala',
-    join_paths(meson.build_root(), '@0@'.format(config_vala))
+    join_paths('@0@'.format(config_vala))
   ),
   dependencies: [
     dependency('glib-2.0'),
